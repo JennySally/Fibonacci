@@ -1,14 +1,21 @@
-#include <stdio.h>
+ /*  Programa que despliega la serie de Fibonacci del numero que teclee el usuario 
+ Autores:
+ 
+ 
+ */
+
+
+#include <stdio.h>         /*Declaración de las bibliotecas*/
 
 
 
 int main(){
 
-   int fibonacci,n,cont;
+   int fibonacci,n,cont;      /*Declaración de las variables*/
 
-    int val1 = 0;
+   int val1 = 0;              /*Inicialización de las variables*/
 
-    int val2 = 1;
+   int val2 = 1;
 
    printf("Ingresa el numero que quieres obtener de la serie de fibonacci");
 
